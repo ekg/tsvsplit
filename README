@@ -1,0 +1,6 @@
+splits tab-separated files with headers, using a list of column names
+
+usage: /home/erik/bin//tsvsplit  <tsv file> [field names]
+prints a tsv file with only the fields provided on the command line
+assumes the first line of the tab-separated values file is the header
+<tsv file> may be specifed as '-' for stdin
